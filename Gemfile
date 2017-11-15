@@ -39,7 +39,8 @@ group :test do
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'database_cleaner'
-  gem 'rspec-expectations'
+  gem 'rspec-rails'
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
 end
 
 group :development do
